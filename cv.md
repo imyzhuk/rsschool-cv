@@ -2,10 +2,10 @@
 
 ## Contacts
 
-    * +375(33)6038689
-    * [vk](https://vk.com/maksimzhuk)
-    * [telegram](https://t.me/Maksimzhuk)
-    * email: imyzhuk@gmail.com
+  * +375(33)6038689
+  * [vk](https://vk.com/maksimzhuk)
+  * [telegram](https://t.me/Maksimzhuk)
+  * email: imyzhuk@gmail.com
 
 ## About me
 
@@ -16,7 +16,7 @@ My main programming's goal is getting pleasure. I think so now and i thought so 
 
 ## Skills:
 
-Html5/CSS3 Basic, Javascript Basic, Git Basic
+**Html5/CSS3** Basic, **Javascript** Basic, **Git** Basic
 
 ## Code
 
@@ -31,7 +31,7 @@ alert("Well... Bye.");
 
 ## Education
 
-I study at the Faculty of Journalism of the Belarusian State University in the third year.
+I study at the ***Faculty of Journalism*** of the ***Belarusian State University*** in the third year.
 
 ## Language
 
