@@ -1,0 +1,128 @@
+/* arimo-regular - latin */
+@font-face {
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+        url("../fonts/arimo-v17-latin-regular.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("../fonts/arimo-v17-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* arimo-700 - latin */
+@font-face {
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../fonts/arimo-v17-latin-700.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("../fonts/arimo-v17-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* arimo-italic - latin */
+@font-face {
+    font-family: "Arimo";
+    font-style: italic;
+    font-weight: 400;
+    src: local(""), url("../fonts/arimo-v17-latin-italic.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("../fonts/arimo-v17-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arimo, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 115%;
+}
+
+.first-column {
+    max-width: 630px;
+}
+.second-column {
+    width: 320px;
+}
+
+.section-title {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Header start */
+.header {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.header__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__title {
+    font-size: 2.3em;
+    font-weight: bold;
+    line-height: 117%;
+    color: #101214;
+}
+.header__subtitle {
+    font-size: 1.7em;
+}
+.header__picture {
+    width: 120px;
+    height: 160px;
+    margin-right: 200px;
+}
+.header__picture-img {
+    border-radius: 100px;
+}
+/* Main start */
+
+.main__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.main__row::after {
+    margin-bottom: 40px;
+}
+/*About start*/
+.about__text {
+    margin-bottom: 7px;
+}
+.about__quotation {
+    background-color: white;
+    font-weight: bold;
+}
+/*About end*/
+
+/*Contacts start*/
+.contacts__item {
+    margin-bottom: 7px;
+}
+/*Contacts end*/
+
+/*Skills start*/
+.skills__item {
+    margin-bottom: 7px;
+}
+/*Skills end*/
+
+/*Language start*/
+.language__item {
+    margin-bottom: 7px;
+}
+/*Language end*/
+
+/*Main end*/
