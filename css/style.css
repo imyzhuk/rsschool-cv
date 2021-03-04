@@ -111,6 +111,12 @@ body {
 .contacts__item {
     margin-bottom: 7px;
 }
+.contacts__link:hover,
+.contacts__link:visited,
+.contacts__link:link {
+    text-decoration: none;
+    color: darkblue;
+}
 /*Contacts end*/
 
 /*Skills start*/
